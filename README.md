@@ -5,6 +5,8 @@
 Welcome to **NumberTrivia**, a web application that provides interesting and educational facts about numbers, dates, and years.
 Whether you're a math enthusiast, a trivia lover, or simply curious, this site has something for you!
 
+![NumberTrivia](https://github.com/ThatSINEWAVE/NumberTrivia/assets/133239148/d5574106-937e-4541-9b25-dc70ec9ac9f9)
+
 </div>
 
 ## Features
