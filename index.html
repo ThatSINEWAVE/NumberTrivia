@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberTrivia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NumberTrivia</h1>
+      <p id="description">Discover interesting facts about numbers, dates, and years.</p>
+      <div id="menu">
+        <button onclick="showOption('trivia')">Number Trivia</button>
+        <button onclick="showOption('math')">Math Facts</button>
+        <button onclick="showOption('date')">Date Facts</button>
+        <button onclick="showOption('year')">Year Facts</button>
+      </div>
+      <div id="option" class="hidden">
+        <p id="optionDescription"></p>
+        <input type="text" id="inputField" placeholder="Enter a number, date or year">
+        <button id="sendButton" onclick="fetchFact()">Send</button>
+      </div>
+      <div id="result" class="hidden">
+        <p id="fact"></p>
+        <button onclick="goBack()">Go back</button>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/NumberTrivia" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
