@@ -1,0 +1,116 @@
+/* General styles */
+body {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	color: #333;
+}
+
+/* Container styles */
+.container {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+}
+
+/* Header styles */
+h1 {
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	color: #4a4a4a;
+}
+
+/* Paragraph styles */
+p {
+	margin-bottom: 1.5rem;
+	color: #666;
+	font-size: 1.1rem;
+}
+
+/* Button styles */
+button {
+	background-color: #9eaee5;
+	color: black;
+	font-weight: bold;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 25px;
+	cursor: pointer;
+	margin: 0.5rem 0;
+	font-size: 1rem;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+	background-color: #78e4d7;
+	transform: translateY(-3px);
+}
+
+.hidden {
+	display: none;
+}
+
+/* Input field styles */
+input {
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+	width: calc(100% - 1.5rem);
+	font-size: 1rem;
+	transition: border-color 0.3s ease;
+}
+
+input:focus {
+	outline: none;
+	border-color: #007BFF;
+}
+
+/* Result fact styles */
+#fact {
+	margin-bottom: 1.5rem;
+	font-size: 1.2rem;
+	color: #333;
+}
+
+/* Footer Styles */
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+	.container {
+		padding: 1.5rem;
+		width: 90%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	button,
+	input {
+		font-size: 0.9rem;
+	}
+}
