@@ -36,7 +36,7 @@ Whether you're a math enthusiast, a trivia lover, or simply curious, this site h
 
 <div align="center">
 
-## [Join my discord server](https://discord.gg/2nHHHBWNDw)
+## [Join my discord server](https://thatsinewave.github.io/Discord-Redirect/)
 
 </div>
 
